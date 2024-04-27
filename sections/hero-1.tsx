@@ -1,5 +1,3 @@
-import About from "./About.tsx";
-
 interface Props {
   /**
    * @description The description of name.
