@@ -269,6 +269,11 @@
         "__resolveType": "Header"
       },
       {
+        "__resolveType": "site/sections/About.tsx",
+        "name": "Passamo porra",
+        "photo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8239/ffb204a6-5c2c-49c1-a367-0a9c4ab18727"
+      },
+      {
         "__resolveType": "site/sections/Hero.tsx",
         "title": "<p>Click here to tweak this text however you want.</p>",
         "cta": [],
