@@ -1,10 +1,15 @@
-# Deco Start — deco.cx template
+# Bi-Weekly Theme #4: "Profession-Specific Website Template" 👩‍💻
 
 This is my first project to apply in bount of the Deco Team!
 
-With this  project i want to explore the theme e create something with the brainstorm that i already make.
-I just have finished to watch the BrazilJS Conf and i full of ideias. I sure that i will achieve the apply desarie
+With this project i want to explore the theme e create something with the brainstorm that i already make.
+I just have finished to watch the BrazilJS Conf and i full of ideias. I confident that i will achieve the apply desarie.
 
+---
+  ## My Theme 🚀
+
+  
+---
 
 ---
 
@@ -13,7 +18,7 @@ code of the components in this site, you may clone this repo and run the project
 locally.__
 
 ---
-## Usage
+## Usage | This is a deco.cx template
 
 Start the project:
 
