@@ -40,12 +40,7 @@ export default function Footer({
       "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/cc202be0-af57-4b32-b9c9-d1d7dc97bf85",
     href: "https://deco.cx",
   },
-  copyright = "© 2024 deco.cx. All rights reserved.",
-  bottomLinks = [
-    { label: "Privacy Policy", href: "/" },
-    { label: "Terms of Service", href: "/" },
-    { label: "Cookies Settings", href: "/" },
-  ],
+  copyright = "© 2024 made with ♡ by Viniciu5morais. All rights reserved. Powered by Deco.cx",
   social = [
     { network: "Facebook", href: "" },
     { network: "Instagram", href: "" },
@@ -73,13 +68,6 @@ export default function Footer({
               />
             </a>
             <span>{copyright}</span>
-            <div class="flex gap-2 justify-between lg:gap-6">
-              {bottomLinks?.map((item) => (
-                <a class="link" href={item.href} target="_blank">
-                  {item.label}
-                </a>
-              ))}
-            </div>
           </div>
           <div class="flex gap-3">
             {social?.map((item) => (

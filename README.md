@@ -13,10 +13,11 @@ Tomorrow i will run the project and start the shelf that will talk about me.
 ---
   ## My Theme 🚀
 
-Contexto: Iremos gerar uma landing page navegavel simples apresentando um hader com links de menu e na home teremos seções apresentando a profissão de astronauta visando demonstrar um pouco da profissão, exaltando a área e o mais importante: precisamos conectar a profissão de astronauta ao profissional de Desenvimento com seus pontos que fazem sentido como a falha e sucesso citada a abaixo (fazendo apologia a missão mal sucedidas de lançamentos).
+Contexto: Iremos gerar uma landing page navegavel simples apresentando um header com links de menu e na home teremos seções apresentando a profissão de astronauta visando demonstrar um pouco da profissão, exaltando a área e o mais importante: precisamos conectar a profissão de astronauta ao profissional de Desenvimento com seus pontos que fazem sentido como a falha e sucesso(fazendo apologia a missões mal sucedidas em lançamentos).
 
 - Ligado a sonhar alto
 - Relacionado ao ser (ser-humano)
+- Conectar com pontos em comum na área de desenvolvimento
   
   #### Keywords
   Cuidado, exploração, futurista, nasa, água, terra, nuvens, falha, sucesso, persistência
