@@ -35,6 +35,12 @@ Contexto: Iremos gerar uma landing page navegavel simples apresentando um header
   #### Ref
   [deco.cx](https://www.github.com/vmorais34)
   [nasa](https://www.github.com/vmorais34)
+
+  Codepens:
+  Cosmic Dreams-https://codepen.io/konstantindenerz/pen/vYMPZKz - has a audio that we can use
+  Water animation with SVG filter - https://codepen.io/dylanstanfield/pen/eRLZQM - maybe this is the right thank to use
+  <!-- <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script> -->
+  https://gsap.com/docs/v3/Installation?tab=cdn&module=esm&method=private+registry&tier=free&club=false&require=false&trial=true
 ---
 
 ---
