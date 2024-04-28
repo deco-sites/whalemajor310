@@ -8,6 +8,13 @@ interface Props {
   photo?: ImageWidget;
 }
 
+export interface Photo {
+  src?: ImageWidget;
+  /** @description text alternative */
+  altText?: string;
+}
+
+
 const IMG_PLACEHODLER ={
   src:
     "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/03fbcc78-ca86-4616-a59a-b8aa18331a9c",
@@ -17,9 +24,10 @@ const IMG_PLACEHODLER ={
 export default function BannerFull({ 
   photo = IMG_PLACEHODLER
 }: Props) {
-  return (
+  console.log("photo", photo);
+  const bannerFull = (
     <>
-      {photo?.map((item) => {
+      {photo?.map((item: Photo) => {
         return (
           <Image
             src={`${item.src}`}
@@ -31,5 +39,10 @@ export default function BannerFull({
         );
       })}
     </>
+  );
+  return (
+    <div class="w-full h-auto lg:mx-auto">
+      {bannerFull}
+    </div>
   );
 }
