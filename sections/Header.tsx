@@ -29,7 +29,7 @@ export default function Header({
   logo = {
     srcMobile: "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8239/8f9107ae-9b39-4408-81f2-5316ff0a6f2a",
     src:
-      "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8239/1c426efb-5c26-4b94-9f05-78da6607c751",
+      "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8239/7b1e02ef-f704-4109-a6e5-e9a5ab6e68fa",
     alt: "Logo",
   },
   navigation = {
