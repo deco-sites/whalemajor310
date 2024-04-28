@@ -269,9 +269,11 @@
         "__resolveType": "Header"
       },
       {
-        "__resolveType": "site/sections/About.tsx",
-        "name": "Passamo porra",
-        "photo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8239/ffb204a6-5c2c-49c1-a367-0a9c4ab18727"
+        "__resolveType": "site/sections/BannerFull.tsx",
+        "photo": { 
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8239/b2bc4835-838c-4fcb-acec-a5d766cc3dff",
+          "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8239/1d6d12e0-3590-40a3-8162-f2de00c24753"
+        }
       },
       {
         "__resolveType": "site/sections/Hero.tsx",
@@ -335,7 +337,11 @@
   "Header": {
     "__resolveType": "site/sections/Header.tsx",
     "navigation": {
-      "links": [],
+      "links": [
+        { "label": "Sobre", "url": "#" },
+        { "label": "Missões", "url": "#" },
+        { "label": "Galeria", "url": "#" }
+      ],
       "buttons": []
     }
   },
