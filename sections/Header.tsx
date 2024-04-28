@@ -34,10 +34,9 @@ export default function Header({
   },
   navigation = {
     links: [
-      { label: "Home", url: "/" },
-      { label: "About us", url: "/" },
-      { label: "Princing", url: "/" },
-      { label: "Contact", url: "/" },
+      { label: "Sobre", url: "#" },
+      { label: "Missões", url: "#" },
+      { label: "Galeria", url: "#" },
     ],
     buttons: [
       { id: "change-me-1", href: "/", text: "Change me", outline: false },
@@ -45,6 +44,8 @@ export default function Header({
     ],
   },
 }: Nav) {
+  console.log("navigation", navigation)
+
   return (
     <nav class="drawer drawer-end">
       <input id="mobile-drawer-nav" type="checkbox" class="drawer-toggle" />

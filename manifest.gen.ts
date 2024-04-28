@@ -4,7 +4,7 @@
 
 import * as $$$$$$$$$$$0 from "./apps/decohub.ts";
 import * as $$$$$$$$$$$1 from "./apps/site.ts";
-import * as $$$$$$0 from "./sections/About.tsx";
+import * as $$$$$$0 from "./sections/BannerFull.tsx";
 import * as $$$$$$1 from "./sections/BlogPosts.tsx";
 import * as $$$$$$2 from "./sections/Faq.tsx";
 import * as $$$$$$3 from "./sections/Footer.tsx";
@@ -20,7 +20,7 @@ import * as $$$$$$9 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
   "sections": {
-    "site/sections/About.tsx": $$$$$$0,
+    "site/sections/BannerFull.tsx": $$$$$$0,
     "site/sections/BlogPosts.tsx": $$$$$$1,
     "site/sections/Faq.tsx": $$$$$$2,
     "site/sections/Footer.tsx": $$$$$$3,
