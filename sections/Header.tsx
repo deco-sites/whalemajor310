@@ -50,69 +50,71 @@ export default function Header({
     <nav class="drawer drawer-end">
       <input id="mobile-drawer-nav" type="checkbox" class="drawer-toggle" />
 
-      {/* main content */}
-      <div class="drawer-content lg:container md:max-w-6xl px-4 flex gap-8 items-center justify-between py-4">
-        <a href="/">
-          <Picture preload>
-            <Source
-              media="(max-width: 768px)"
-              src={logo.srcMobile}
-              width={270}
-              height={377}
-            />
-            <Source
-              media="(min-width: 768px)"
-              src={logo.src}
-              width={800}
-              height={1200}
-            />
-              <img
-                  loading="eager"
-                  fetchPriority="high"
-                  src={logo.src}
-                  class="w-full h-full object-cover"
+      <div class="fixed top-0 left-0 z-50 w-full h-auto bg-gradient-to-b from-transparent to-black backdrop-blur-md">
+        {/* main content */}
+        <div class="drawer-content lg:container md:max-w-6xl px-4 flex gap-8 items-center justify-between py-4">
+          <a href="/">
+            <Picture preload>
+              <Source
+                media="(max-width: 768px)"
+                src={logo.srcMobile}
+                width={178}
+                height={250}
               />
-          </Picture>
+              <Source
+                media="(min-width: 768px)"
+                src={logo.src}
+                width={246}
+                height={361}
+              />
+                <img
+                    loading="eager"
+                    fetchPriority="high"
+                    src={logo.src}
+                    class="max-w-20 w-full h-full object-cover"
+                />
+            </Picture>
 
-        </a>
+          </a>
 
-        <div class="hidden items-center justify-between lg:flex w-full">
-          <ul class="flex">
-            {navigation.links.map((link) => (
-              <li>
+          <div class="hidden items-center justify-between lg:flex w-full">
+            <ul class="flex w-full justify-end">
+              {navigation.links.map((link) => (
+                <li>
+                  <a
+                    href={link.url}
+                    aria-label={link.label}
+                    class="text-white link no-underline hover:underline p-4"
+                  >
+                    {link.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+            <ul class="flex gap-3">
+              {navigation.buttons?.map((item) => (
                 <a
-                  href={link.url}
-                  aria-label={link.label}
-                  class="link no-underline hover:underline p-4"
+                  key={item?.id}
+                  id={item?.id}
+                  href={item?.href ?? "#"}
+                  target={item?.href.includes("http") ? "_blank" : "_self"}
+                  class={`font-normal btn btn-primary ${
+                    item.outline && "btn-outline"
+                  }`}
                 >
-                  {link.label}
+                  {item?.text}
                 </a>
-              </li>
-            ))}
-          </ul>
-          <ul class="flex gap-3">
-            {navigation.buttons?.map((item) => (
-              <a
-                key={item?.id}
-                id={item?.id}
-                href={item?.href ?? "#"}
-                target={item?.href.includes("http") ? "_blank" : "_self"}
-                class={`font-normal btn btn-primary ${
-                  item.outline && "btn-outline"
-                }`}
-              >
-                {item?.text}
-              </a>
-            ))}
-          </ul>
-        </div>
+              ))}
+            </ul>
+          </div>
 
-        <label
-          htmlFor="mobile-drawer-nav"
-          class="flex lg:hidden btn btn-ghost drawer-button"
-        >
-          <Icon id="Bars3" size={24} strokeWidth={0.1} />
-        </label>
+          <label
+            htmlFor="mobile-drawer-nav"
+            class="flex lg:hidden btn btn-ghost drawer-button bg-white rounded-full"
+          >
+            <Icon id="Bars3" size={24} strokeWidth={0.1} />
+          </label>
+        </div>
       </div>
 
       {/* sidebar */}
@@ -124,10 +126,10 @@ export default function Header({
           class="drawer-overlay"
         />
 
-        <div class="flex flex-col gap-8 min-h-full w-80 bg-base-100 text-base-content">
+        <div class="max-w-[80%] flex flex-col gap-8 min-h-full w-80 bg-gradient-to-b from-transparent to-black backdrop-blur-md text-white">
           <a class="p-4" href="/">
             <Image
-              src={logo.src || ""}
+              src={logo.srcMobile || ""}
               width={100}
               height={28}
               alt={logo.alt}

@@ -35,12 +35,12 @@ export interface Props {
 
 export default function Footer({
   madeWith = {
-    label: "Made with",
+    label: "",
     src:
       "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/cc202be0-af57-4b32-b9c9-d1d7dc97bf85",
     href: "https://deco.cx",
   },
-  copyright = "© 2024 made with ♡ by Viniciu5morais. All rights reserved. Powered by Deco.cx",
+  copyright = "© 2024 made with ♡ by Viniciu5morais. All rights reserved. Powered by",
   social = [
     { network: "Facebook", href: "" },
     { network: "Instagram", href: "" },
@@ -52,8 +52,9 @@ export default function Footer({
   return (
     <div class="lg:container my-auto mx-auto md:max-w-6xl px-4 pt-16 text-sm">
       <div class="flex flex-col gap-20">
-        <div class="border-primary border-t flex flex-col gap-4 items-center justify-between lg:flex-row lg:items-center py-8">
+        <div class="border-primary border-t flex flex-col gap-4 items-center justify-center lg:flex-row lg:items-center py-8">
           <div class="flex flex-col gap-4 items-center lg:flex-row lg:gap-6">
+            <span>{copyright}</span>
             <a
               href={madeWith?.href}
               class="flex items-center gap-2"
@@ -67,7 +68,6 @@ export default function Footer({
                 alt={madeWith?.label}
               />
             </a>
-            <span>{copyright}</span>
           </div>
           <div class="flex gap-3">
             {social?.map((item) => (

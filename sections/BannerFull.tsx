@@ -17,11 +17,11 @@ export default function BannerFull({
 }: Props) {
 
   return (
-    <div class="w-full h-auto lg:mx-auto">
+    <div class="bg-black/95 w-full h-auto lg:mx-auto pt-36 min-[1026px]:pt-32">
       <Picture>
         <Source
           media="(max-width: 768px)"
-          src="https://example.com/image-mobile.png"
+          src={photo.srcMobile}
           class="w-full h-full"
           width={270}
           height={377}
@@ -34,7 +34,7 @@ export default function BannerFull({
           height={1200}
         />
         <Image
-          src="https://example.com/image.png"
+          src=""
           class="w-full h-full object-cover"
           width={800}
           height={1200}
