@@ -2,6 +2,7 @@ import type { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 import { Picture, Source } from "apps/website/components/Picture.tsx";
 import Icon from "../components/ui/Icon.tsx";
+import Play from "../components/ui/Play.tsx";
 
 export interface CTA {
   id?: string;
@@ -44,7 +45,6 @@ export default function Header({
     ],
   },
 }: Nav) {
-  console.log("navigation", navigation)
 
   return (
     <nav class="drawer drawer-end">
@@ -114,11 +114,8 @@ export default function Header({
           >
             <Icon id="Bars3" size={24} strokeWidth={0.1} />
           </label>
-          <div
-            class="px-0 flex lg:hidden w-12 btn btn-ghost drawer-button bg-black rounded-full"
-          >
-            <Icon id="Play" size={24} strokeWidth={0.1} />
-          </div>
+          
+          <Play />
 
         </div>
       </div>
@@ -150,6 +147,8 @@ export default function Header({
                 </a>
               </li>
             ))}
+            
+            <Play />
           </ul>
 
           <ul class="p-4 flex items-center gap-3">
