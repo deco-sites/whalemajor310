@@ -2,11 +2,16 @@ import type { ImageWidget } from "apps/admin/widgets.ts";
 import { Picture, Source } from "apps/website/components/Picture.tsx";
 import Image from "apps/website/components/Image.tsx";
 
+export interface Img {
+  src?: ImageWidget;
+  srcMobile?: ImageWidget;
+}
+
 interface Props {
   /**
    * @description Deco Image.
    */
-  photo?: ImageWidget;
+  photo?: Img;
 }
 
 export default function BannerFull({ 
