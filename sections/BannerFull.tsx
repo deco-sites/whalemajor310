@@ -17,7 +17,7 @@ interface Props {
 export default function BannerFull({ 
   photo = {
     src: "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8239/b2bc4835-838c-4fcb-acec-a5d766cc3dff",
-    srcMobile: "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8239/1d6d12e0-3590-40a3-8162-f2de00c24753",
+    srcMobile: "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8239/f7855f36-18e3-49aa-a72d-9bfb1ce2d1bc",
   },
 }: Props) {
 
