@@ -277,19 +277,12 @@
       },
       {
         "__resolveType": "site/sections/Hero.tsx",
-        "title": "<p>Click here to tweak this text however you want.</p>",
+        "title": "<p>Sobre</p>",
         "cta": [],
-        "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
+        "description": " Ser um astronauta é abraçar uma vida de exploração além dos limites da Terra. É ser um pioneiro do futuro, mergulhando no desconhecido em busca de novas descobertas e realizações. Cada missão representa um passo audacioso em direção às estrelas, impulsionado pela curiosidade humana e pela busca contínua pelo entendimento do universo.  No coração da jornada espacial reside o cuidado meticuloso, onde cada detalhe é planejado e preparado com precisão cirúrgica. Cada decisão, cada movimento, é executado com a máxima atenção, reconhecendo a fragilidade da vida em um ambiente tão hostil. A responsabilidade de proteger a própria vida e a dos colegas é uma constante, exigindo uma dedicação inabalável ao bem-estar pessoal e ao sucesso da missão.  Mas ser um astronauta também requer uma persistência inabalável. Diante dos desafios inesperados e das adversidades que surgem no espaço, é a determinação implacável que impulsiona os astronautas a superar obstáculos e alcançar novos patamares. Cada falha é uma oportunidade de aprendizado, cada sucesso uma recompensa pela coragem e pela dedicação incansável.  Ser um astronauta é mais do que uma profissão, é uma vocação que exige coragem, visão de futuro e uma persistência inabalável. É embarcar em uma jornada de descoberta sem fim representando o espírito humano de conquistar o desconhecido."
       },
       {
         "__resolveType": "site/sections/Gallery.tsx"
-      },
-      {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx",
-        "placement": "right"
-      },
-      {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx"
       },
       {
         "__resolveType": "Footer"
