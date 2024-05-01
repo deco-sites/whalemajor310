@@ -22,6 +22,7 @@ function Play() {
         >
           <Icon id="Play" size={24} strokeWidth={0.1} />
       </div>
+      {/* <audio id="audio" loop src="https://assets.codepen.io/907471/cosmic_dreams.mp3"></audio> */}
     </div>
   );
 }

@@ -87,7 +87,6 @@ components.
 
 --content
 
-
 Ser um astronauta é abraçar uma vida de exploração além dos limites da Terra. É ser um pioneiro do futuro, mergulhando no desconhecido em busca de novas descobertas e realizações. Cada missão representa um passo audacioso em direção às estrelas, impulsionado pela curiosidade humana e pela busca contínua pelo entendimento do universo.
 
 No coração da jornada espacial reside o cuidado meticuloso, onde cada detalhe é planejado e preparado com precisão cirúrgica. Cada decisão, cada movimento, é executado com a máxima atenção, reconhecendo a fragilidade da vida em um ambiente tão hostil. A responsabilidade de proteger a própria vida e a dos colegas é uma constante, exigindo uma dedicação inabalável ao bem-estar pessoal e ao sucesso da missão.
@@ -95,19 +94,3 @@ No coração da jornada espacial reside o cuidado meticuloso, onde cada detalhe 
 Mas ser um astronauta também requer uma persistência inabalável. Diante dos desafios inesperados e das adversidades que surgem no espaço, é a determinação implacável que impulsiona os astronautas a superar obstáculos e alcançar novos patamares. Cada falha é uma oportunidade de aprendizado, cada sucesso uma recompensa pela coragem e pela dedicação incansável.
 
 Ser um astronauta é mais do que uma profissão, é uma vocação que exige coragem, visão de futuro e uma persistência inabalável. É embarcar em uma jornada de descoberta sem fim, representando o espírito humano de conquistar o desconhecido.
-
-
--- Missões
-
-Claro, aqui estão algumas expedições espaciais que tiveram sucesso e outras que enfrentaram falhas durante a missão:
-
-Sucesso:
-
-Missão Apollo 11 (NASA): A primeira missão a colocar humanos na Lua, em julho de 1969.
-Missão Voyager (NASA): As sondas Voyager 1 e Voyager 2, lançadas em 1977, que exploraram os planetas exteriores e continuam a transmitir dados do espaço interestelar.
-Mars Pathfinder (NASA): A missão lançada em 1996, que incluiu o rover Sojourner, foi a primeira a pousar com sucesso um veículo motorizado em Marte.
-Falhas:
-
-Challenger (NASA): O ônibus espacial Challenger explodiu 73 segundos após o lançamento em janeiro de 1986, devido a uma falha no O-ring do foguete sólido.
-Mars Climate Orbiter (NASA): Lançado em 1998, falhou em entrar na órbita de Marte devido a uma falha na comunicação entre as equipes de projeto, resultando em uma perda de US$ 125 milhões.
-Beagle 2 (Agência Espacial Europeia): A sonda britânica Mars Beagle 2, lançada em 2003, perdeu contato durante sua descida para Marte e não foi encontrada até 2015.

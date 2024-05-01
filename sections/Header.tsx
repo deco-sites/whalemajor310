@@ -121,7 +121,7 @@ export default function Header({
       </div>
 
       {/* sidebar */}
-      <aside class="drawer-side z-50">
+      <aside class="drawer-side z-50 lg:hidden">
         {/* Close when clicking on overlay */}
         <label
           htmlFor="mobile-drawer-nav"
