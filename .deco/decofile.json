@@ -336,7 +336,7 @@
       "links": [
         {
           "label": "Sobre",
-          "url": "#"
+          "url": "#Sobre"
         },
         {
           "label": "Missões",
@@ -344,7 +344,7 @@
         },
         {
           "label": "Galeria",
-          "url": "#"
+          "url": "#Galeria"
         }
       ],
       "buttons": []

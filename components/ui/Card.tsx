@@ -32,7 +32,7 @@ export default function Card({
     <>
     <div class={`relative w-full block group p-4 rounded-lg ${success ? 'bg-blue-100' : 'bg-rose-400'}`}>        
         <div class="block bg-black/90 rounded-lg">
-          <div class="w-full h-auto lg:mx-auto">
+          <div class="w-full h-auto lg:mx-auto rounded-lg">
           <Picture>
             <Source
               media="(max-width: 768px)"
@@ -57,8 +57,10 @@ export default function Card({
           </Picture>
         </div>
       </div>
-      <div class="md:w-full max-w-[95%] sm:max-w-[90%] mx-auto h-auto p-4 shadow-2xl opacity-0 group-hover:opacity-100 transition-all absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4 tra bg-white/50 rounded-lg">
-        <p class="text-sm lg:text-base text-white my-0">
+      <div class="w-full mx-auto h-full opacity-0 group-hover:opacity-100 transition-all absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4 tra bg-black/70 rounded-lg z-10">
+      </div>
+      <div class="md:w-full max-w-[95%] sm:max-w-[90%] mx-auto h-auto p-4 shadow-2xl opacity-0 group-hover:opacity-100 transition-all absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4 tra bg-white/50 rounded-lg z-20">
+        <p class="text-sm lg:text-base text-slate-900 font-semibold my-0">
           {description}
         </p>
       </div>

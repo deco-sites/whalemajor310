@@ -15,12 +15,14 @@ export interface Props {
    */
   title?: string;
   /**
+   * @format rich-text
    * @default This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.
    */
   description?: string;
   image?: ImageWidget;
   placement?: "left" | "right";
   cta?: CTA[];
+  idBlock?: string;
 }
 
 const PLACEMENT = {
@@ -38,10 +40,11 @@ export default function HeroFlats({
     { id: "change-me-1", href: "/", text: "Change me", outline: false },
     { id: "change-me-2", href: "/", text: "Change me", outline: true },
   ],
+  idBlock = "Sobre"
 }: Props) {
   return (
-    <section class="bg-[url('https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8239/842db695-0254-44c0-80ab-e8470424007c')] bg-cover bg-center">
-      <nav class="lg:container lg:mx-auto mx-4">
+    <section id={idBlock} class="bg-[url('https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8239/842db695-0254-44c0-80ab-e8470424007c')] bg-cover bg-center">
+      <nav class="lg:container lg:mx-auto mx-4 bg-[url('https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8239/58c84316-4405-4778-961d-9cee28e7895b')] bg-repeat-y lg:bg-no-repeat bg-left-top bg-contain transition-all">
         <div class="flex flex-col items-center gap-8">
           <div
             class={`flex w-full xl:container xl:mx-auto py-20 mx-5 md:mx-10 z-10 ${
@@ -62,7 +65,7 @@ export default function HeroFlats({
               />
             )}
             <div
-              class={`mx-6 lg:mx-auto lg:w-full space-y-4 gap-4 ${
+              class={`md:mx-6 lg:mx-auto lg:w-full space-y-4 gap-4 ${
                 image
                   ? "lg:w-1/2 lg:max-w-xl"
                   : "flex flex-col items-center justify-center lg:max-w-3xl"
@@ -75,8 +78,11 @@ export default function HeroFlats({
                 }}
               >
               </div>
-              <p class="text-white text-lg md:text-md leading-[150%]">
-                {description}
+              <p class="text-white text-sm md:text-md leading-[150%]"
+                dangerouslySetInnerHTML={{
+                  __html: description,
+                }}
+              >
               </p>
               <div class="flex items-center gap-3">
                 {cta?.map((item) => (
