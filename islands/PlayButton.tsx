@@ -3,8 +3,8 @@ import Icon from "../components/ui/Icon.tsx";
 export default function PlayButton() {
   const handleClick = () => {
     const audio = document.getElementById("audioItem") as HTMLAudioElement;
-    const audioBtn = document.getElementById("audioBtn");
-    console.log("clicado", audioBtn, audio);
+    // const audioBtn = document.getElementById("audioBtn");
+    // console.log("clicado", audioBtn, audio);
 
     if (audio) {
       if (audio.paused) {

@@ -148,7 +148,7 @@ export default function Header({
               </li>
             ))}
             
-            <Play />
+            {/* <Play /> */}
           </ul>
 
           <ul class="p-4 flex items-center gap-3">
