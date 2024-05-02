@@ -80,6 +80,10 @@
       "fonts": [
         {
           "variations": [],
+          "family": "RobotoCondensed"
+        },
+        {
+          "variations": [],
           "family": "Albert Sans"
         }
       ]
@@ -339,11 +343,7 @@
           "url": "#Sobre"
         },
         {
-          "label": "Missões",
-          "url": "#"
-        },
-        {
-          "label": "Galeria",
+          "label": "Missões e Galeria",
           "url": "#Galeria"
         }
       ],
