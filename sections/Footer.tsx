@@ -64,8 +64,8 @@ export default function Footer({
                 <span>{madeWith?.label}</span>
                 <Image
                   src={madeWith?.src || ""}
-                  width={100}
-                  height={28}
+                  width={70}
+                  height={19}
                   alt={madeWith?.label}
                 />
               </a>

@@ -51,8 +51,8 @@ Contexto: Iremos gerar uma landing page navegavel simples apresentando um header
   Cuidado, exploração, futurista, nasa, água, terra, nuvens, falha, sucesso, persistência
 
   #### Ref
-  [deco.cx](https://www.github.com/vmorais34)
-  [nasa](https://www.github.com/vmorais34)
+  [deco.cx](https://deco.cx/docs/pt/)
+  [nasa](https://nisar.jpl.nasa.gov/)
 
   Codepens:
   Cosmic Dreams-https://codepen.io/konstantindenerz/pen/vYMPZKz - has a audio that we can use
@@ -83,14 +83,3 @@ components.
 ## Authors
 
 - [@viniciu5morais](https://www.github.com/vmorais34)
-
-
---content
-
-Ser um astronauta é abraçar uma vida de exploração além dos limites da Terra. É ser um pioneiro do futuro, mergulhando no desconhecido em busca de novas descobertas e realizações. Cada missão representa um passo audacioso em direção às estrelas, impulsionado pela curiosidade humana e pela busca contínua pelo entendimento do universo.
-
-No coração da jornada espacial reside o cuidado meticuloso, onde cada detalhe é planejado e preparado com precisão cirúrgica. Cada decisão, cada movimento, é executado com a máxima atenção, reconhecendo a fragilidade da vida em um ambiente tão hostil. A responsabilidade de proteger a própria vida e a dos colegas é uma constante, exigindo uma dedicação inabalável ao bem-estar pessoal e ao sucesso da missão.
-
-Mas ser um astronauta também requer uma persistência inabalável. Diante dos desafios inesperados e das adversidades que surgem no espaço, é a determinação implacável que impulsiona os astronautas a superar obstáculos e alcançar novos patamares. Cada falha é uma oportunidade de aprendizado, cada sucesso uma recompensa pela coragem e pela dedicação incansável.
-
-Ser um astronauta é mais do que uma profissão, é uma vocação que exige coragem, visão de futuro e uma persistência inabalável. É embarcar em uma jornada de descoberta sem fim, representando o espírito humano de conquistar o desconhecido.
