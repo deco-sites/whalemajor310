@@ -106,16 +106,18 @@ export default function Header({
                 </a>
               ))}
             </ul>
-          </div>
-
-          <label
-            htmlFor="mobile-drawer-nav"
-            class="px-0 flex lg:hidden w-12 btn btn-ghost drawer-button bg-white rounded-full"
-          >
-            <Icon id="Bars3" size={24} strokeWidth={0.1} />
-          </label>
+          </div> 
           
-          <Play />
+          <div class="flex gap-4 flex-row align-middle justify-center">
+            <label
+              htmlFor="mobile-drawer-nav"
+              class="px-0 flex lg:hidden w-12 btn btn-ghost drawer-button bg-white rounded-full"
+            >
+              <Icon id="Bars3" size={24} strokeWidth={0.1} />
+            </label>
+            
+            <Play />
+          </div>
 
         </div>
       </div>

@@ -55,7 +55,7 @@ export default function Footer({
         <div class="flex flex-col gap-20">
           <div class="border-[#D2D2D2] border-t flex flex-col gap-4 items-center justify-center lg:flex-row lg:items-center py-8">
             <div class="flex flex-col gap-4 items-center lg:flex-row lg:gap-6">
-              <span>{copyright}</span>
+              <span class="text-center sm:text-left">{copyright}</span>
               <a
                 href={madeWith?.href}
                 class="flex items-center gap-2"
